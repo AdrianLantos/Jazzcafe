@@ -14,7 +14,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #222;
     padding-bottom: 50px;
-    background-color: #f1f1f1;
+    background-color: #ecebeb;
 }
 
 .container {
@@ -238,6 +238,8 @@ h1.section {
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .video_container iframe {
@@ -277,6 +279,7 @@ h1.section {
 
 .article .article_txt h2 {
     font-size: 50px;
+    font-style: bold;
     margin-top: -25px;
     margin-bottom: 20px;
 }
@@ -286,7 +289,7 @@ h1.section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
     height: 100%;
     width: 100%;
     flex: 100%;
@@ -356,7 +359,7 @@ h1.section {
 }
 
 .cards .card img {
-    max-height: 35%;
+    max-height: 33%;
     width: 100%;
     object-position: center;
     object-fit: cover;
@@ -438,7 +441,7 @@ h1.section {
     width: 100%;
     object-fit: fill;
     object-position: center;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 0px 25px rgba(79, 79, 79, 0.5);
     transition: width 0.3s ease-in, height 0.3s ease-in;
 }

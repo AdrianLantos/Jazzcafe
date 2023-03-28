@@ -15,7 +15,12 @@ $(document).ready(function(){
     $('.nav_btn').click(() => {
         $('.nav_btn_icon').toggleClass('inactive');
         $('.red').toggleClass('active');
-    })
+    });
+
+    $('.mobile_nav_btn').click(() =>{
+        $('.red').toggleClass('active');
+        $('.nav_btn_icon').toggleClass('inactive');
+    });
 
     $(window).scroll(() => {
         const nav = document.querySelector('.nav');
@@ -25,5 +30,5 @@ $(document).ready(function(){
                 } else {
                     nav.classList.remove('active')
                 }
-    })
+    });
 });
